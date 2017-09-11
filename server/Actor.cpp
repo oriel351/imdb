@@ -5,6 +5,7 @@
  * behaviour. *
  ****************************************/
 
+#include "Actor.h"
 
 
 Actor::Actor(long id, int age, string descript, string gender, string name) :
