@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddMovieController">
+   <top>
+      <Pane prefHeight="61.0" prefWidth="382.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="134.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD MOVIE" textAlignment="CENTER" wrappingWidth="109.435546875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Button fx:id="exit" layoutX="6.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="35.0" text="x" />
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label text="code" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="code" prefHeight="25.0" prefWidth="223.0">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label text="name" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="name" prefHeight="25.0" prefWidth="218.0">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label text="length" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="length" prefHeight="25.0" prefWidth="214.0">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label text="year" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="year" prefHeight="25.0" prefWidth="235.0">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0" spacing="50.0">
+               <children>
+                  <Label text="rank" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Slider fx:id="rank" max="10.0" min="1.0" orientation="VERTICAL" />
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label prefHeight="24.0" prefWidth="130.0" text="link for image" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="imageLink" prefHeight="25.0" prefWidth="202.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label prefHeight="24.0" prefWidth="124.0" text="description" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="description" prefHeight="25.0" prefWidth="160.0">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="347.0">
+               <children>
+                  <Label prefHeight="24.0" prefWidth="87.0" text="genres" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <VBox fx:id="genresPlace" prefHeight="35.0" prefWidth="133.0">
+                     <padding>
+                        <Insets right="30.0" />
+                     </padding>
+                     <children>
+                        <TextField fx:id="addFirstGenre" />
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="35.0" prefWidth="104.0">
+                     <children>
+                        <Button fx:id="addGenre" layoutX="16.0" layoutY="4.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="82.0" text="another " />
+                     </children>
+                  </Pane>
+               </children>
+               <padding>
+                  <Insets top="14.0" />
+               </padding>
+            </HBox>
+            <Pane prefHeight="94.0" prefWidth="377.0">
+               <children>
+                  <Button fx:id="addMovie" layoutX="158.0" layoutY="6.0" mnemonicParsing="false" text="Add!" />
+                  <HBox fx:id="misdetail" layoutX="18.0" layoutY="46.0" prefHeight="27.0" prefWidth="308.0" />
+               </children>
+            </Pane>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>

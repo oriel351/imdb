@@ -1,0 +1,454 @@
+* commit 62feb6af00618ed100af027fb1696834230ea821
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Tue Jan 26 23:21:15 2016 +0200
+| 
+|     i hate linux
+|  
+* commit 05949f2d763767418105ecf5176e36a06dfd9131
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 22:36:08 2016 +0200
+| 
+|     created row controller for showing results
+|  
+* commit 2f7e0155d283200f152e809235f4098a4952803c
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 21:54:04 2016 +0200
+| 
+|     applying add list cell
+|  
+* commit def59788fdf7bfc7053af5873be347f4b1863b1b
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 21:10:16 2016 +0200
+| 
+|     AddMovie Controller finished
+|    
+*   commit 0a777e0e949b049139fc763322c0b9dde490a3b2
+|\  Merge: e1ea21b fb3994b
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 18:49:51 2016 +0200
+| | 
+| |     Merge branch 'oriel' into kati-oriel-merged
+| |   
+| * commit fb3994bd5ce9f1b984f7d7a1120d3003bb3709fb
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 18:36:39 2016 +0200
+| | 
+| |     fixed final version server connection controller.
+| |     fixed movie controller bug
+| |   
+* | commit e1ea21b4d923343533dce20b979b17c9352ca411
+| | Author: kati <kati@ubuntu>
+| | Date:   Mon Jan 25 08:41:35 2016 -0800
+| | 
+| |     created pro controller to add expert to datagbase
+| |   
+* | commit f474b66b20a249ae83bab4e39f6600e1212ed322
+|/  Author: kati <kati@ubuntu>
+|   Date:   Mon Jan 25 08:13:29 2016 -0800
+|   
+|       Professional controller added is being modified rapidly
+|  
+* commit 66dd1ad8063f3060ed779731497523774ce4e75d
+| Author: kati <kati@ubuntu>
+| Date:   Mon Jan 25 06:27:30 2016 -0800
+| 
+|     all is getting better
+|  
+* commit 6a58bb1d258caae1060ea666f8cdc65ba05a5b21
+| Author: kati <kati@ubuntu>
+| Date:   Mon Jan 25 06:24:56 2016 -0800
+| 
+|     testfffff
+|    
+*   commit 6d3de1c793407be23bb8b37700338e0cbec332a0
+|\  Merge: 4de72ac c54a6da
+| | Author: kati <kati@ubuntu>
+| | Date:   Mon Jan 25 06:24:07 2016 -0800
+| | 
+| |     Merge branch 'master' of https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |   
+| * commit c54a6da7592f60443034e687eb39510e47679739
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 16:18:00 2016 +0200
+| | 
+| |     one line deleted
+| |   
+| * commit d081cfbc86718a545a83885e4f015bd307bee7e7
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 16:15:49 2016 +0200
+| | 
+| |     updating genres method belong to movie in controller
+| |   
+* | commit 4de72ac51968a7cb39547477e57e5a9b6dd41b12
+| | Author: kati <kati@ubuntu>
+| | Date:   Mon Jan 25 06:17:51 2016 -0800
+| | 
+| |     all is fucked
+| |   
+* | commit e306755d667d28bc2f06e183cc72a3dba6662a32
+| | Author: kati <kati@ubuntu>
+| | Date:   Mon Jan 25 06:17:25 2016 -0800
+| | 
+| |     all button menu is fucked up
+| |     
+* |   commit 4ab940e3cc462ca36736edbd0e9a37d278f7ba07
+|\ \  Merge: 5275291 0d8c32f
+| |/  Author: kati <kati@ubuntu>
+| |   Date:   Mon Jan 25 05:41:45 2016 -0800
+| |   
+| |       Merge branch 'master' of https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |   
+| * commit 0d8c32f0f16e70911188d7de8b548b87370d8e7a
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 15:39:39 2016 +0200
+| | 
+| |     updated manually context menu
+| |   
+| * commit 3a00c2aeabf6378bb2ec7653fcfe50463ea7fbb9
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 15:18:50 2016 +0200
+| | 
+| |     width of addMovie fixed
+| |   
+| * commit dc598513cfc26cadab0123527a6f572286b2d943
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Mon Jan 25 15:07:47 2016 +0200
+| | 
+| |     finished to make ADdMovieController.
+| |     now sends movie information to server
+| |   
+* | commit 5275291a930c57ff5a2297babe0d1f0f2692d30f
+|/  Author: kati <kati@ubuntu>
+|   Date:   Mon Jan 25 05:22:45 2016 -0800
+|   
+|       main controller enriched
+|  
+* commit f374cca8c1b96784c92c87e7a50ad603ffd02558
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 12:56:13 2016 +0200
+| 
+|     a
+|  
+* commit ba99ec393a91df4384337933a208d29a9d4cfb25
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 12:53:46 2016 +0200
+| 
+|     changed add movie button
+|  
+* commit cdcb6ab7a91993386c157ad36b34b68dad7eaf48
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Mon Jan 25 12:05:07 2016 +0200
+| 
+|     new controller for addmovie
+|  
+* commit 03e72e495219cf812dd2bfbdc57bd8b0ad15f171
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Sun Jan 24 21:03:09 2016 +0200
+| 
+|     added new controller for adding movie scene
+|     added new interface for printing expert and movie,
+|     as well as new classes which will hold the movie and expert information
+|     while printin the listview
+|  
+* commit 756ba399fcb133205cea2f8a7c8f5229701e6301
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Sun Jan 24 19:11:05 2016 +0200
+| 
+|     cclient updated, reaedy to communicate with server.
+|  
+* commit fff6bb5e8cfb9e6294f1c48195c54bc7be22066d
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Fri Jan 22 18:48:41 2016 +0200
+| 
+|     fixed loader problem ,
+|     connection windows completed graphicly.
+|  
+* commit 82b6a0e27c33a332dddef1a07c6300998fe52d04
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Fri Jan 22 00:58:10 2016 +0200
+| 
+|     few changes
+|  
+* commit eb26fc23beb8d2cedd8f573d63f1e58665c79c71
+| Author: kati <kati@ubuntu>
+| Date:   Thu Jan 21 08:53:10 2016 -0800
+| 
+|     add movies window added
+|  
+* commit c521109d722e8a4c09235d74cc093055c94d5b00
+| Author: kati <kati@ubuntu>
+| Date:   Thu Jan 21 07:10:21 2016 -0800
+| 
+|     button names added
+|  
+* commit d4ba71c3cd2441c9a4cf1446ebdb6303009206c2
+| Author: kati <kati@ubuntu>
+| Date:   Thu Jan 21 06:46:06 2016 -0800
+| 
+|     professional window added
+|  
+* commit 6fba7db4a7ba7304d7d4529ec2e96913adacd1e0
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Thu Jan 21 16:44:19 2016 +0200
+| 
+|     adding logocontroller class
+|     logo class
+|     edirted css for gui def
+|    
+*   commit 0b64791de5d6749a786ac1871a8293f8c17b180f
+|\  Merge: 5aa7a6d 70b06a3
+| | Author: kati <kati@ubuntu>
+| | Date:   Thu Jan 21 05:19:12 2016 -0800
+| | 
+| |     Merge branch 'master' of
+| |     https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |     
+| |     Conflicts:
+| |     	ex6/src/application/gui_def.fxml
+| |   
+| * commit 70b06a3de14990b94fe6f3784882da98fb621e44
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Thu Jan 21 15:16:00 2016 +0200
+| | 
+| |     ed
+| |   
+| * commit ac75fef2b08eb2c1c6a18eb9f0607c03e5f7e445
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Thu Jan 21 15:11:55 2016 +0200
+| | 
+| |     updated fxml files
+| |     
+| *   commit cb307b83daed64a47252d1c76ab36e0922a64588
+| |\  Merge: e9e3103 8c01478
+| | | Author: oriel gaash <oriel351@gmail.com>
+| | | Date:   Thu Jan 21 14:11:00 2016 +0200
+| | | 
+| | |     Merge branch 'master' of https://oriel351@bitbucket.org/oriel351/assignment6client.git
+| | |      
+| * |   commit e9e31036c5e250765c4e6f1048caf712dd681002
+| |\ \  Merge: 8fa62b0 7ef5e29
+| | | | Author: oriel gaash <oriel351@gmail.com>
+| | | | Date:   Wed Jan 20 23:58:53 2016 +0200
+| | | | 
+| | | |     Merge branch 'master' of https://oriel351@bitbucket.org/oriel351/assignment6client.git
+| | | |     
+| * | | commit 8fa62b0cd07b7c75ae393744d20998e615a303c7
+| | | | Author: oriel gaash <oriel351@gmail.com>
+| | | | Date:   Wed Jan 20 23:58:42 2016 +0200
+| | | | 
+| | | |     updating logo windows
+| | | |     
+* | | | commit 5aa7a6d596d36c0ee68e90e94565e9a00a9b5566
+| |_|/  Author: kati <kati@ubuntu>
+|/| |   Date:   Thu Jan 21 05:14:28 2016 -0800
+| | |   
+| | |       conflict settled xml gui def
+| | |    
+* | | commit 8c01478f04de70ff244f3ccb24448bb7816872d6
+| | | Author: kati <kati@ubuntu>
+| | | Date:   Thu Jan 21 03:30:31 2016 -0800
+| | | 
+| | |     color changed/ try to run this stuff to see if it works
+| | |    
+* | | commit f14bf3737f534bd1e72d747220a314734df59dca
+| | | Author: kati <kati@ubuntu>
+| | | Date:   Thu Jan 21 02:28:11 2016 -0800
+| | | 
+| | |     all and - buttons moved to right
+| | |    
+* | | commit 90fb7a1408276c22324ce375d13d3c634ec428a6
+| |/  Author: kati <kati@ubuntu>
+|/|   Date:   Wed Jan 20 13:59:44 2016 -0800
+| |   
+| |       bush
+| |   
+* | commit 7ef5e2999008a37e2b99ff12f25fe8a9a3be79bb
+|/  Author: kati <kati@ubuntu>
+|   Date:   Wed Jan 20 13:55:34 2016 -0800
+|   
+|       names added
+|  
+* commit e394516cc527972d175a601c6676a3d112f87a83
+| Author: kati <kati@ubuntu>
+| Date:   Wed Jan 20 13:45:21 2016 -0800
+| 
+|     a
+|    
+*   commit 0d02023cc965d28d4b720dee20c7b0c72963582c
+|\  Merge: 283d25c 47aba81
+| | Author: kati <kati@ubuntu>
+| | Date:   Wed Jan 20 13:44:02 2016 -0800
+| | 
+| |     Merge branch 'master' of https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |   
+| * commit 47aba814cebb7baba3ede5b2a42a8211611a0bc0
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 23:40:27 2016 +0200
+| | 
+| |     working on logo window fxml
+| |   
+| * commit 65a92b464358ab4557498eb2e656b84a0a69112c
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 23:18:06 2016 +0200
+| | 
+| |     created new controller and definition file for server details
+| |     windows.
+| |   
+* | commit 283d25c7a9fd87afb4c2af569b5c5f1a10e7592b
+|/  Author: kati <kati@ubuntu>
+|   Date:   Wed Jan 20 13:38:46 2016 -0800
+|   
+|       added a plenty of buttons
+|  
+* commit a00bf0e4d52764222e3b87899ea63169df85186a
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Wed Jan 20 22:35:47 2016 +0200
+| 
+|     working on controller
+|  
+* commit 6a125bf8ae04a729c392f150995869ab2c5eeb42
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Wed Jan 20 21:29:35 2016 +0200
+| 
+|     added controllers
+|  
+* commit 7b58ae16211c1d848f9679ebd15e1634c3e3cda9
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Wed Jan 20 21:03:53 2016 +0200
+| 
+|     added button
+|  
+* commit 316e4ba300db74cd628c59e4e45ce0e7580b932d
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Wed Jan 20 21:01:40 2016 +0200
+| 
+|     change
+|  
+* commit c6bb47fbd90a4cd99fc91f7d95218ca6dc0b5d10
+| Author: kati <kati@ubuntu>
+| Date:   Wed Jan 20 10:54:49 2016 -0800
+| 
+|     border given a name & a controller
+|  
+* commit 25403731a4037cfa3d108c50bbd51320d09bc129
+| Author: kati <kati@ubuntu>
+| Date:   Wed Jan 20 10:48:46 2016 -0800
+| 
+|     names added
+|  
+* commit cead557af5c3523a5b5565662c02ad70dafce64e
+| Author: kati <kati@ubuntu>
+| Date:   Wed Jan 20 10:34:33 2016 -0800
+| 
+|     xml fixed for priel kilkel
+|    
+*   commit f460ae07c32db1f2ae86936c1050054d8574fa22
+|\  Merge: fbcc0e5 5ed6dee
+| | Author: kati <kati@ubuntu>
+| | Date:   Wed Jan 20 10:32:47 2016 -0800
+| | 
+| |     Merge branch 'master' of
+| |     https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |     
+| |     Conflicts:
+| |     	ex6/src/application/gui_def.fxml
+| |   
+| * commit 5ed6dee9289fb9f663ddbd362fd3a5eeea5065e7
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 20:23:00 2016 +0200
+| | 
+| |     up
+| |   
+| * commit 4d184d1096dd274c07619a13e7de3929ad4b5e2f
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 19:30:34 2016 +0200
+| | 
+| |     changed files hierrarrchy
+| |   
+| * commit c8f49bc004c65457119f79800e960234ea85053f
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 17:40:50 2016 +0200
+| | 
+| |     edited css file,
+| |     expanded text box to fit the prompt text
+| |   
+| * commit 70182ee35865ef66617d1db7d1822003d9cd8ece
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 17:12:47 2016 +0200
+| | 
+| |     ץ
+| |   
+| * commit 3f695e2429f9fc286b801524908d2a0a7505634d
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Wed Jan 20 15:33:45 2016 +0200
+| | 
+| |     fixed first instance of windows
+| |   
+| * commit 9fa43e19e22be3295e12411389b04f26676cc994
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Tue Jan 19 16:00:51 2016 +0200
+| | 
+| |     edirted main windows ccontroller
+| |   
+* | commit fbcc0e532110923db4501cb3becc549ed61b8fe0
+| | Author: kati <kati@ubuntu>
+| | Date:   Wed Jan 20 10:24:40 2016 -0800
+| | 
+| |     aaa
+| |   
+* | commit ca42896af57c4f30a20cda503a3358968ca306d8
+|/  Author: kati <kati@ubuntu>
+|   Date:   Tue Jan 19 06:08:00 2016 -0800
+|   
+|       searc added
+|  
+* commit fcd032113aab798dc267216554d486ec4f225a66
+| Author: kati <kati@ubuntu>
+| Date:   Tue Jan 19 05:53:38 2016 -0800
+| 
+|     moved gui def xml file
+|  
+* commit 42b940fba74a8d73741bc227a417656bb8c9ca9d
+| Author: oriel gaash <oriel351@gmail.com>
+| Date:   Tue Jan 19 15:49:40 2016 +0200
+| 
+|     edited the main windows class file name
+|  
+* commit 36e804d01967c7dab29e6e097875a9a7f472ee19
+| Author: kati <kati@ubuntu>
+| Date:   Tue Jan 19 05:39:21 2016 -0800
+| 
+|     bush button
+|    
+*   commit af352519227c8912bdac57accc6e0252ef0f6431
+|\  Merge: a34e4e3 b6db3f2
+| | Author: kati <kati@ubuntu>
+| | Date:   Tue Jan 19 05:37:47 2016 -0800
+| | 
+| |     Merge branch 'master' of https://ktadler@bitbucket.org/oriel351/assignment6client.git
+| |   
+| * commit b6db3f2ed7ba9e1d63b15c2ebd95fb90d35f07e4
+| | Author: oriel gaash <oriel351@gmail.com>
+| | Date:   Tue Jan 19 15:12:00 2016 +0200
+| | 
+| |     creating the tcp client in java
+| |   
+* | commit a34e4e337a18ee46e94c6ad0da1c9c3d57d78fee
+|/  Author: kati <kati@ubuntu>
+|   Date:   Tue Jan 19 05:35:57 2016 -0800
+|   
+|       bush button
+|  
+* commit ba8e99b378ec60d001e607bd7eeceae354904fb2
+| Author: kati <kati@ubuntu>
+| Date:   Tue Jan 19 04:34:37 2016 -0800
+| 
+|     a window created
+|  
+* commit 140e55c207fbcc67f60e3bd9bde5be00691a564d
+  Author: oriel gaash <oriel351@gmail.com>
+  Date:   Mon Jan 18 00:18:56 2016 +0200
+  
+      finally, started the new ex6 project.
+      
+      commiting for the partner able to puull the new projefct template

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane fx:id="border" prefHeight="383.0" prefWidth="824.0" style="-fx-background-color: 4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+	<top>
+		<ToolBar prefHeight="90.0" prefWidth="1000.0" style="-fx-background-color: 4;" BorderPane.alignment="CENTER">
+			<effect>
+				<DropShadow />
+			</effect>
+			<items>
+				<Button fx:id="connection" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="62.0" prefWidth="71.0" text="server">
+					<graphic>
+						<ImageView fitHeight="59.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@film.png" />
+							</image>
+						</ImageView>
+					</graphic>
+				</Button>
+				<TextField fx:id="text" prefHeight="41.0" prefWidth="312.0" promptText="Please enter movie or professional id" />
+				<SplitMenuButton fx:id="split" mnemonicParsing="false" prefHeight="52.0" prefWidth="72.0">
+					<items>
+						<MenuItem fx:id="moviesByProfID" mnemonicParsing="false" text="Movies by professional ID" />
+						<MenuItem fx:id="movieByID" mnemonicParsing="false" text="Movie by ID" />
+						<MenuItem fx:id="profByMovie" mnemonicParsing="false" text="Professionals by movie" />
+					</items>
+				</SplitMenuButton>
+				<Button fx:id="search" mnemonicParsing="false" prefHeight="41.0" prefWidth="66.0">
+					<graphic>
+						<ImageView fitHeight="46.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@search.png" />
+							</image>
+						</ImageView>
+					</graphic>
+				</Button>
+				<Button fx:id="remove" mnemonicParsing="false" prefHeight="53.0" prefWidth="62.0" text="-">
+					<contextMenu>
+						<ContextMenu fx:id="removeMenu">
+							<items>
+								<MenuItem fx:id="remMovie" mnemonicParsing="false" text="Movie" />
+								<MenuItem fx:id="remProf" mnemonicParsing="false" text="Professional" />
+							</items>
+						</ContextMenu>
+					</contextMenu>
+					<font>
+						<Font size="26.0" />
+					</font>
+				</Button>
+      				<Pane prefHeight="0.0" prefWidth="200.0">
+      					<children>
+                  <HBox fx:id="contexHb" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                        <Button fx:id="add" mnemonicParsing="false" prefHeight="53.0" prefWidth="62.0" text="+">
+                           <contextMenu>
+                              <ContextMenu fx:id="addMenu">
+                                 <items>
+                                    <MenuItem fx:id="addMovie" mnemonicParsing="false" text="Movies" />
+                                    <MenuItem fx:id="addProf" mnemonicParsing="false" text="Professional" />
+                                 </items>
+                              </ContextMenu>
+                           </contextMenu>
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="all" mnemonicParsing="false" prefHeight="53.0" prefWidth="62.0" text="All" textAlignment="CENTER">
+                           <contextMenu>
+                              <ContextMenu fx:id="allMenu">
+                                 <items>
+                                    <MenuItem fx:id="allMovies" mnemonicParsing="false" text="Movie" />
+                                    <MenuItem fx:id="allProf" mnemonicParsing="false" text="Professional" />
+                                    <MenuItem fx:id="allGenr" mnemonicParsing="false" text="Genres" />
+                                 </items>
+                              </ContextMenu>
+                           </contextMenu>
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="40.0" top="13.0" />
+                     </padding>
+                  </HBox>
+      					</children>
+      				</Pane>
+			</items>
+		</ToolBar>
+	</top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="results" layoutX="117.0" layoutY="55.0" prefHeight="200.0" prefWidth="590.0" styleClass="results">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ListView>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Pane>
+   </center>
+</BorderPane>
