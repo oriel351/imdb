@@ -3,7 +3,7 @@
  *
  *  Created on: Nov 21, 2015
  *      Author: oriel Gaash.
- *      ID : 302462825.
+ *  
  */
 
 #ifndef INCLUDE_ACTOR_H_

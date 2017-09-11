@@ -3,13 +3,8 @@
  *
  *  Created on: Nov 21, 2015
  *  Author: oriel
- * 8921004 302462825 Oriel Gaash */
+ * 8921004  Oriel Gaash */
 
-/****************************************
- * Student Name:  oriel gaash              *
- * Exercise Name: exercise 3              *
- * File description: all movie's functions             *
- ****************************************/
 #ifndef INCLUDE_MOVIE_H_
 #define INCLUDE_MOVIE_H_
 

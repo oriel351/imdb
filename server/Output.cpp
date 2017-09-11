@@ -1,7 +1,7 @@
 /****************************************
  * Student Name: Oriel Gaash             *
  * Exercise Name: assignment 3           *
- * File description:output implementation*
+ * File description: output implementation*
  ****************************************/
 
 #include "Output.h"

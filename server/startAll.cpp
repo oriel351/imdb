@@ -1,8 +1,6 @@
 /*********************************************
- * Student Name: Oriel Gaash, ID : 302462825 *
- * Student Name: Kati Adler, ID: 312730336   *
- * Exercise Name: assignment 4               *
- * File description:  the main function      *
+ * Student Name: Oriel Gaash*
+ * Student Name: Kati Adler *
  *********************************************/
 
 #include "Server.h"

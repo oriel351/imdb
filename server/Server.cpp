@@ -1,5 +1,5 @@
 /****************************************
- * Student Name: Oriel Gaash Kati Adler  *
+ * Student Name: Oriel Gaash  * 
  * Exercise Name: assignment 5           *
  * File description:                     *
  ****************************************/
